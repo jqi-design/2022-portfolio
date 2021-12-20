@@ -1,0 +1,16 @@
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 100%;
+}
+
+h2 {
+  font-family: "Roboto Slab", serif;
+  font-style: normal;
+  font-size: 24pt;
+
+}
+
+.focus-hidden {
+  display:none;
+}
