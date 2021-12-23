@@ -4,13 +4,51 @@ body {
   font-size: 100%;
 }
 
-h2 {
+.logo {
   font-family: "Roboto Slab", serif;
-  font-style: normal;
+  font-weight: 500;
   font-size: 24pt;
+}
 
+.header {
+  display: flex;
+  float: left;
+  justify-content: space-between;
+  overflow: hidden;
+  text-align: center;
+  align-items: center;
+  padding: 24px 150px;
+  height: 80px;
+  width: 100%;
+  background-color: white;
+  color: #2F2F2F;
+  filter: drop-shadow(0 4px 20px #00000066);
 }
 
 .focus-hidden {
   display:none;
+}
+
+.header-link1, .header-link2, .header-link3, .header-link4 {
+  padding: 0 25px;
+  font-family: "Roboto Slab", serif;
+  font-weight: 500;
+  font-size: 14pt;
+  color: #2F2F2F;
+}
+
+.header-link1:hover {
+  color: #CA73E9;
+}
+
+.header-link2:hover {
+  color: #E44168;
+}
+
+.header-link3:hover {
+  color: #13B658;
+}
+
+.header-link4:hover {
+  color: #09C3CF;
 }
