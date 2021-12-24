@@ -4,10 +4,15 @@ body {
   font-size: 100%;
 }
 
-.logo {
-  font-family: "Roboto Slab", serif;
+h2 {
+  color: #2F2F2F;
   font-weight: 500;
+  font-family: "Roboto Slab", serif;
   font-size: 24pt;
+}
+
+.logo-text:hover {
+  color: #E7BF31;
 }
 
 .header {
@@ -27,6 +32,10 @@ body {
 
 .focus-hidden {
   display:none;
+}
+
+.header-links {
+  display: flex;
 }
 
 .header-link1, .header-link2, .header-link3, .header-link4 {
