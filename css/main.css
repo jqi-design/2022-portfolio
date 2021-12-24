@@ -38,7 +38,7 @@ h2 {
   display: flex;
 }
 
-.header-link1, .header-link2, .header-link3, .header-link4 {
+.header-link-a, .header-link-u, .header-link-c, .header-link-b {
   padding: 0 25px;
   font-family: "Roboto Slab", serif;
   font-weight: 500;
@@ -46,18 +46,18 @@ h2 {
   color: #2F2F2F;
 }
 
-.header-link1:hover {
+.header-link-a:hover {
   color: #CA73E9;
 }
 
-.header-link2:hover {
+.header-link-u:hover {
   color: #E44168;
 }
 
-.header-link3:hover {
+.header-link-c:hover {
   color: #13B658;
 }
 
-.header-link4:hover {
+.header-link-b:hover {
   color: #09C3CF;
 }
