@@ -1,4 +1,4 @@
-/* Global styles
+/* Global Styles
 --------------------------------------------- */
 
 body {
@@ -15,10 +15,11 @@ h2 {
 /* ********* */
 
 
-/* Header logo & nav
+/* Header Logo &  Header Nav
 --------------------------------------------- */
 
-.logo-text:hover {
+.logo-text:hover,
+.logo-text:active {
   color: #E7BF31;
 }
 
@@ -52,19 +53,23 @@ h2 {
   color: #2F2F2F;
 }
 
-.header-link-a:hover {
+.header-link-a:hover,
+.header-link-a:active {
   color: #CA73E9;
 }
 
-.header-link-u:hover {
+.header-link-u:hover,
+.header-link-u:active {
   color: #E44168;
 }
 
-.header-link-c:hover {
+.header-link-c:hover,
+.header-link-c:active {
   color: #13B658;
 }
 
-.header-link-b:hover {
+.header-link-b:hover,
+.header-link-b:active {
   color: #09C3CF;
 }
 /* ********* */
