@@ -1,3 +1,5 @@
+/* Global styles
+--------------------------------------------- */
 
 body {
   font-family: "Roboto", sans-serif;
@@ -10,6 +12,11 @@ h2 {
   font-family: "Roboto Slab", serif;
   font-size: 24pt;
 }
+/* ********* */
+
+
+/* Header logo & nav
+--------------------------------------------- */
 
 .logo-text:hover {
   color: #E7BF31;
@@ -30,15 +37,14 @@ h2 {
   filter: drop-shadow(0 4px 20px #00000066);
 }
 
-.hidden {
-  display:none;
-}
-
 .header-links {
   display: flex;
 }
 
-.header-link-a, .header-link-u, .header-link-c, .header-link-b {
+.header-link-a,
+.header-link-u,
+.header-link-c,
+.header-link-b {
   padding: 0 25px;
   font-family: "Roboto Slab", serif;
   font-weight: 500;
@@ -60,4 +66,13 @@ h2 {
 
 .header-link-b:hover {
   color: #09C3CF;
+}
+/* ********* */
+
+
+/* Rules
+--------------------------------------------- */
+
+.screen-readers {
+  display:none;
 }
