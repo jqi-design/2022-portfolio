@@ -42,10 +42,7 @@ h2 {
   display: flex;
 }
 
-.header-link-a,
-.header-link-u,
-.header-link-c,
-.header-link-b {
+.header-links a {
   padding: 0 25px;
   font-family: "Roboto Slab", serif;
   font-weight: 500;
